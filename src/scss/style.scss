@@ -1,0 +1,47 @@
+@import './src/scss/partials/_setup.scss';
+@import './src/scss/partials/_typography.scss';
+@import './src/scss/partials/_utils.scss';
+
+
+.wrapper {
+	width: 50%;
+}
+
+@font-face {
+    font-family: STIXGeneralItalic;
+    src: url(/dev/STIXGeneralItalic.otf);
+}
+
+body {
+	// background: url(/dev/milieu.png) no-repeat center center fixed;
+	background-image: url(/dev/noFun.png);
+	
+	
+	// -webkit-background-size: cover;
+    
+}
+
+header {
+	background: url(/dev/IMG_5814.JPG) no-repeat center center fixed;
+	height: 140vh;
+	margin: 0 auto;
+	max-width: 92vh;
+}
+
+footer {
+	text-align: center;
+	padding-top: 3rem;
+}
+
+.thcBox .thc {
+	max-height: 5%;
+	max-width: 5%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
