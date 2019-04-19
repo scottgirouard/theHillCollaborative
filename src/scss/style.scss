@@ -13,17 +13,12 @@
 }
 
 body {
-	// background: url(/dev/milieu.png) no-repeat center center fixed;
-	background-image: url(/dev/noFun.png);
-	
-	
-	// -webkit-background-size: cover;
-    
+	// height: 500vh;
 }
 
 header {
-	background: url(/dev/IMG_5814.JPG) no-repeat center center fixed;
-	height: 140vh;
+	// background: url(/dev/IMG_5814.JPG) no-repeat center center fixed;
+	height: 130vh;
 	margin: 0 auto;
 	max-width: 92vh;
 }
@@ -34,14 +29,41 @@ footer {
 }
 
 .thcBox .thc {
-	max-height: 5%;
-	max-width: 5%;
+	max-height: 40%;
+	max-width: 40%;
 }
 
 ul {
 	list-style-type: none;
+	margin-left: .5rem;
+	position: fixed;
 }
 
 a {
-	text-decoration: none;
+	text-decoration: none;	
+}
+
+.sideList {
+	margin-top: 6.2rem;
+	width: 20%;
+}
+
+.soundcloud {
+	margin: 0 auto;
+	// height: 75vh;
+	outline: 0;
+	padding: 12px 0 12px 0;
+}
+
+.bandcamp {
+	margin: 0 auto;
+	// height: 75vh;
+	width: 30%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+}
+
+.collective {
+	height: 300vh;
 }
