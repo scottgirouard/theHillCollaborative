@@ -12,9 +12,9 @@
     src: url(/dev/STIXGeneralItalic.otf);
 }
 
-body {
-	// height: 500vh;
-}
+// body {
+// 	height: 500vh;
+// }
 
 header {
 	// background: url(/dev/IMG_5814.JPG) no-repeat center center fixed;
@@ -31,6 +31,20 @@ footer {
 .thcBox .thc {
 	max-height: 40%;
 	max-width: 40%;
+	padding-bottom: 15px;
+	margin-left: 7px;
+}
+
+.thcSmall {
+	max-height: 20%;
+	max-width: 20%;
+	margin-left: 2rem;
+}
+
+.thcSmallServices {
+	max-height: 20%;
+	max-width: 20%;
+	margin-left: 2.2rem;
 }
 
 ul {
@@ -65,5 +79,15 @@ a {
 }
 
 .collective {
-	height: 320vh;
+	height: 380vh;
+}
+
+// SERVICE PAGE
+
+a.serviceFont {
+	padding: 2px;
+}
+
+.sideListServices {
+	margin-top: 13rem;
 }
