@@ -1,14 +1,16 @@
 
 h1 {
-    font-size: 8.8rem;
+    font-size: 8.5rem;
     color: black;
     margin: 0 auto;
     padding-top: 1.6rem;
+    margin-left: 1.5rem;
 }
 
 h2 {
     margin: 0 auto;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 a {
@@ -17,8 +19,33 @@ a {
     font-family: 'Merriweather', serif;
 }
 
+a:hover {
+    color: rgba(169, 156, 215, 0.817);
+}
+
+a.serviceFont {
+    font-size: 16.5px;
+    margin-right: 5px;
+}
+
+a.serviceFont:hover {
+    color: rgba(169, 156, 215, 0.817);
+}
+
 .footerP {
     font-family: 'Merriweather', serif;
     font-size: 14px;
 }
+
+.collectiveHeadline {
+    padding-bottom: 1rem;
+}
+
+.email {
+    font-family: 'Merriweather', serif;
+    padding-bottom: 2rem;
+    color: rgba(169, 156, 215, 0.817);
+}
+
+
 

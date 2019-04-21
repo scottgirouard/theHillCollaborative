@@ -67,9 +67,36 @@ a {
 	// height: 75vh;
 	outline: 0;
 	padding: 12px 0 12px 0;
+
 }
 
-.bandcamp {
+.bandcampSection {
+	width: 60%;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.bandcampLeft {
+	margin-left: 1rem;
+	// height: 75vh;
+	width: 20%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	float: left;
+}
+
+.bandcampRight {
+	margin-right: 13rem;
+	// height: 75vh;
+	width: 20%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	float: right;
+}
+
+.bandcampHialeah {
 	margin: 0 auto;
 	// height: 75vh;
 	width: 30%;
@@ -79,15 +106,37 @@ a {
 }
 
 .collective {
-	height: 380vh;
+	height: 330vh;
+	display: flex;
+	flex-direction: column;
 }
 
 // SERVICE PAGE
 
-a.serviceFont {
-	padding: 2px;
-}
-
 .sideListServices {
 	margin-top: 13rem;
 }
+
+.webDevSecion {
+	margin: 0 auto;
+	width: 50%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	text-align: center;
+}
+
+.webDevImg {
+	width: 40%;
+	margin: 0 auto;
+	align-content: center;
+}
+
+.servicesSection {
+	height: 340vh;
+}
+
+// MEDIA QUERIES 
+
+
+
