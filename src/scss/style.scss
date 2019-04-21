@@ -138,5 +138,208 @@ a {
 
 // MEDIA QUERIES 
 
+@media (max-width: 1230px) {
 
+	.bandcampSection {
+	width: 62%;
+	flex-direction: row;
+	margin: 0 auto;
+}
 
+.bandcampLeft {
+	margin-left: 2rem;
+	// height: 75vh;
+	width: 10%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	float: left;
+}
+
+.bandcampRight {
+	margin-right: 17rem;
+	// height: 75vh;
+	width: 10%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	float: right;
+}
+
+}
+
+@media (max-width: 1220px) {
+
+	.bandcampSection {
+	width: 65%;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.bandcampLeft {
+	margin-left: 3rem;
+	// height: 75vh;
+	width: 8%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	float: left;
+}
+
+.bandcampRight {
+	margin-right: 19rem;
+	// height: 75vh;
+	width: 8%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	float: right;
+}
+
+}
+
+@media (max-width: 1215px) {
+
+	.bandcampSection {
+	width: 67%;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.bandcampLeft {
+	margin-left: 2rem;
+	// height: 75vh;
+	width: 6%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	float: left;
+}
+
+.bandcampRight {
+	margin-right: 21rem;
+	// height: 75vh;
+	width: 6%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	float: right;
+}
+
+}
+
+@media (max-width: 1201px) {
+
+	.bandcampSection {
+	width: 70%;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.bandcampLeft {
+	margin-left: 2rem;
+	// height: 75vh;
+	width: 4%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	float: left;
+}
+
+.bandcampRight {
+	margin-right: 23rem;
+	// height: 75vh;
+	width: 4%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	float: right;
+}
+
+}
+
+@media (max-width: 1200px) {
+
+	.bandcampSection {
+	width: 30%;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.bandcampLeft {
+	margin: 0 auto;
+	// height: 75vh;
+	width: 100%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	// float: left;
+}
+
+.bandcampRight {
+	margin: 0 auto;
+	// height: 75vh;
+	width: 100%;
+	outline: 0;
+	align-items: center;
+	padding: 12px 0 12px 0;
+	// float: right;
+}
+
+.collective {
+	height: 420vh;
+}
+
+}
+
+@media (max-width: 480px) {
+
+	.wrapper {
+		width: 100%;
+	}
+
+	header {
+		height: 80vh;
+		max-width: 70vh;
+	}
+
+	.thcBox {
+		visibility: hidden;
+	}
+
+	.collective {
+		height: 580vh;
+		max-width: 70vh;
+	}
+
+	.soundcloud {
+		max-width: 70vh;
+	}
+
+	.bandcampLeft {
+		max-width: 30vh;
+	}
+
+	h1 {
+		font-size: 4.20rem;
+		text-align: left;
+		padding: none;
+	}
+
+	a.serviceFont {
+		padding: none;
+	}
+
+	.sideList {
+	display: flex;
+	flex-direction: row;
+	margin-top: 25rem;
+	position: relative;
+	}
+
+	a {
+		font-size: 13px;
+		padding: 5px;
+		margin: 0 auto;
+	}
+}
