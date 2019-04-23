@@ -13,7 +13,7 @@
 }
 
 // body {
-// 	height: 500vh;
+// 	height: 100%;
 // }
 
 header {
@@ -106,7 +106,7 @@ a {
 }
 
 .collective {
-	height: 330vh;
+	height: 350vh;
 	display: flex;
 	flex-direction: column;
 }
@@ -342,4 +342,81 @@ a {
 		padding: 5px;
 		margin: 0 auto;
 	}
+}
+
+@media (max-width: 320px) {
+
+	// body {
+	// 	max-width: 100%;
+	// }
+
+	header {
+	height: 70vh;
+	margin: 0 auto;
+	// max-width: 100%;
+	}
+
+	ul {
+		padding: none;
+		margin: 0;
+	}
+
+	.sideList {
+	margin-top: 2.5rem;
+	padding: none;
+	// width: 20%;
+	}
+
+	.collective {
+		height: 540vh;
+		max-width: 100%;
+		margin: 0 auto;
+		display: block;
+		// flex-direction: column;
+	}
+
+	.soundcloud {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.bandcampSection {
+	width: 100%;
+	align-items: center;
+	// flex-direction: row;
+	margin: 0 auto;
+}
+
+	.bandcampLeft {
+		width: 100%;
+	}
+
+	.bandcampRight {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 4.3rem;
+		text-align: left;
+		padding: none;
+		margin: 0 0 0 11px;
+	}
+
+	a.serviceFont {
+		padding: none;
+	}
+
+	a {
+		font-size: 13px;
+		padding: 4.5px;
+		margin: 0;
+	}
+
+	footer {
+		margin: 0 auto;
+		align-items: center;
+	}
+
+
+
 }
